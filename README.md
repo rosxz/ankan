@@ -49,18 +49,5 @@ need or might end up deemed unnecessary, so their priority might fluctuate.
 - [ ] Show image(s) related to the given word [Medium Priority]
 - [ ] Get list of (interesting) words/phrases in which the kanji/word appears/phrases [Medium Priority]
 - [ ] Save to and load the configuration of a local file [Medium Priority]
-- [ ] Take notes [Medium Priority] [ ] Display a kanji upon open a new tab (from a single source) [High Priority]
-- [ ] Display the current time (Vital feature for any new tab)
-But, if this were all that the extension would have then it would be quite bad,
-numerous other features should be added down the line, but are not of vital
-need or might end up deemed unnecessary, so their priority might fluctuate.
-- [ ] Ability to alternate between kanji/words source [Low Priority]  
-	- [ ] Fetch new kanji/words from anki decks [High Priority]
-	- [ ] Fetch new kanji/words from a local file [Low Priority]
-- [ ] Ability to change the background of the tab [Medium Priority]
-- [ ] Ability to resize the text
-- [ ] Set location and display current weather [Low Priority]
-- [ ] Button(s) to search for the kanji/word on popular websites like Jisho.org [Medium Priority]
-- [ ] Show image(s) related to the given word [Medium Priority]
-- [ ] Get list of (interesting) words/phrases in which the kanji/word appears/phrases
+- [ ] Take notes [Medium Priority] 
 

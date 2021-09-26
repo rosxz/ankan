@@ -1,0 +1,72 @@
+// This file is to be used for note taking during ankan's development,
+// as I am still learning many things which come up as requirements
+// for it's development.
+
+// Javascript notes
+Engine used on chromium browsers - V8
+An engine basicly parses the javascript and compiles it into machine language.
+
+alert("string") -> generates a modal window with an OK button, impeding any interaction with the rest of the website until this window has been closed
+prompt("Message/Title", ["Default input"]) -> generates a prompt for the user to input text, being the second parameter optional.
+confirm("Message/Question") -> generates a modal window with an OK and cancel button, returning the respective boolean value
+
+If a src is set then the contents of the script are ignored.
+Statements: perform actions. Can be separated with a semicolon(When using line breaks, semicolons can be omitted)[Although it's best to use them].
+Comments can be added with // for single line comment and /* */ for multi-line comments
+Ctrl+/ on IDEs to comment out chunks of code
+There cannot be comment nesting
+"use strict";/'use strict'; to use the new methods, either on the entire code or singular function. (99% should stay on top of the script), there's no way to switch
+between new method or old method. Stuff like classes and modules enable strict by default, so in the end you might just omit it.
+
+let name -> create variable named "name".
+name = "Hello" -> assign data to variable
+Or simply: let hello = "Hello", world = " World!"
+Declaring a variable multiple times generates an error.
+
+const helloWorld = "Hello World!" -> to create constants
+Capital-named constants only for hardcoded values, known prior to the execution of the script.
+
+Infinity number, NaN as computer error(sticky).
+BigInts (arbrity length int)-> append n to the end of the number.
+
+Backticks are like regular quotes but provide extended functionality, they allow to embed variables and expressions into a string by wrapping them in ${...}
+	let name = "John";
+	alert(`Hello, $[name}`);
+Char type (as in C code) doesn't exist in JavaScript.
+Null and Undefined value types.
+
+typeof -> get the data type of variable or expression
+Strings can be converted to numbers through mathematical expressions, such as: "2" / "3", or with Num(...)
+String with "0" is true
+Chained assignments are possible
++ can convert numbers to strings, but - only works with numbers, therefore convertes strings into numbers ("" to 0)
+Comparisons between string and number convert string to number
+== (same value), === (same value and without data type conversion)
+
+let result = condition ? value1 : value2;
+
+|| -> returns the first truthy value, or the last falsy, can use expressions(which might not return anything, so the code keeps running)
+&& -> finds the first falsy value, or the last truthy
+&& > ||
+! as NOT, !! -> converts value to boolean, without changing the boolean value, ! has the highest precedence of all operators
+Nullish coalescing operator '??':
+	Returns the first argument that isn't null/undefined
+Break and Continue exist in their C forms.
+Strict equality operator ===
+Switch statement:
+	switch(x) {
+		case CASEA:
+			...
+			[break]
+		case default:
+			...
+			[break]
+	}
+// The default case is optional
+function coolFunction() {
+	[do stuff]
+}
+If argument valued is omitted, then it stays undefined, and no errors are generated. You can also pass default values with =, as in coolFunction(var1 = "nada"), or later
+by checking if the var is undefined and then assigning a value to it.
+Return values just like in C. There can't be newlines in the return expression.
+KISS, functions should do one thing and one thing only.

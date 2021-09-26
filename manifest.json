@@ -1,0 +1,13 @@
+{
+  "name": "ankan",
+  "description": "Simple extension for chromium browsers to get kanji on new tabs.",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "chrome_url_overrides" : {
+    "newtab": "override_page.html"
+  },
+  "permissions": ["storage"]
+}

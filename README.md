@@ -1,20 +1,6 @@
 # ankan
 Simple extension for chromium browsers to get japanese on new tabs.
 
-## List of objectives
-Since this extension is mainly for my own personal usage I can
-afford to be egoist and focus on my own needs, which not even
-I'm sure of, so I try to think of it as a project that will help
-me understand it's true meaning throughout it's own development.
-
-ankan should stay a relatively simple but powerful extension,
-providing various customization options but keeping the scope
-of features true to it's original intention.
-
-The main features the extension should undoutedbly have are:
--# ankan
-Simple extension for chromium browsers to get japanese on new tabs.
-
 ### What is ankan
 Due to the lack of quality of japanese learning related new tab extensions
 on the chrome webstore, I decided to create one myself, that would
